@@ -15,11 +15,13 @@ body {
     height: 100px;
     background: black;
     
+    
 }
 
 .box1 .logo img {
    margin-left: 45%;
    width:135px;
+   
    
 
 }
@@ -96,68 +98,45 @@ body {
 }
 
 
+
 .box6 {
+    width: 100%;
+    
+}
+
+.article {
+    
     display: flex;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    margin-left: 10px;
-    transform: perspective(600px);
-   
-    
+    float: left;
+    left: 50%;
+    margin: 30px;
+    max-width: 900px;
 
 }
 
-.tarjetas img {
-    width: 100%;
-    position: absolute;
-    
- 
+.tarjeta {
+    max-width: 1200px;
+    margin: 80px;
+    border: 1px solid black;
+    background-color: rgb(109, 32, 22);
+    box-sizing: border-box;
+    box-shadow: 5px 10px 25px 30px black;
 }
 
-
-
-article {
-    position: relative;
-    margin-right: 100px;
-    width: 100%;
-    box-shadow: 20px 25px 30px 30px rgb(29, 9, 9);
-    perspective: 700;
-    
- }
-
- article:hover{
-    box-shadow: 20px 25px 30px 30px rgb(218, 18, 18);
- }
-
-.tarjetas h1 {
-    position: relative;
-    top: 0;
+.box6 img {
     width: 250px;
-    height: 160px;
-    font-size: 17px;
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-    background: brown;
-   color: white;
-   overflow: hidden;
+    margin-left: 20px;
+   
 }
 
-
-
-.tarjetas {
-    transform-style: preserve-3d;
-    box-shadow: 0 10px 25px white;
-    transition: 2s ease;
-    width: 100%;
+h3 {
+    color: black;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
     
 }
- 
-
-.tarjetas:hover {
-    transform: rotateY(180deg);
-}
-
 
 
 /*galery de imagenes*/
@@ -204,24 +183,25 @@ h1 {
 
 
 
-.pie {
-    width: 100%;
-    height: 120px;
-    background: rgb(12, 2, 2);
-    position: absolute;
-    z-index: 4;
-    top: 3900px;
-    
-    
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:rgb(0, 0, 0);
+ }
 
+.box7 h3 {
+    text-align: center;
+    font-size: 90px;
+    
 }
 
-.piedepagina {
-    top:3900px
+.box7 h3:hover {
+    color: rgb(36, 0, 0);
+    zoom: 1.1;
 }
-
-
-
 
 
 
