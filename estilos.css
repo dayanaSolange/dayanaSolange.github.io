@@ -1,210 +1,129 @@
+
 *{
+    margin: 0px;
+    
+}
+body {
     margin: 0;
     padding: 0;
-    
 }
-
-body {
-    background: url(img/fondopag.jpg);
-    
-    
-}
-
-.box1 {
+#header {
+    width: 500;
+    font-family: Arial;
     width: 100%;
-    height: 100px;
-    background: black;
-    
+    font-size: 20px;
     
 }
-
-.box1 .logo img {
-   margin-left: 45%;
-   width:135px;
-   
-   
-
+ul {
+    list-style: none;
 }
 
-.box2 .contenedor .barraSuperior {
+.menus {
+    margin: 0;
+    background-image: url(imagen/portadaup.jpg);
+}
+
+.menus li a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(177, 71, 71);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
     width: 100%;
-    height: 50px;
-  
     text-align: center;
-}
-
-
-.box2 .contenedor .barraSuperior a {
-    text-shadow: 3px 8px 15px rgb(0,0,0,65);
-    text-decoration: none;
-    list-style-type: none;
-    color: rgb(194, 144, 51);
-    font-size: 30px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
-}
-.box2 .contenedor .barraSuperior a:hover {
-    zoom: 1.2;
-}
-
-.box3-menu .categoria  {
-    background-image: url(img/);
-    width: 100%;
-    height: 30px;
-    margin-top:100px;
     
-}
-
-.box3-menu .categoria a{
-    text-decoration: none;
-    list-style-type: none;
-    color: rgb(145, 108, 53);
-    font-size: 21px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     
+  
 }
 
-.box3-menu .categoria a:hover {
-    zoom: 1.1;
-    color: brown;
-}
-
-.box5 .portada {
+.menus > li {
+    float: left;
     position: relative;
     
-    
-    
-    
 }
 
-.box5 h3 {
+.menus li a:hover {
+    background-color: rgb(204, 166, 172);
+}
+
+.menus li ul {
+    display: none;
     position: absolute;
-    z-index: 2;
-    text-align: center;
-    justify-content: center;
-    font-size: 70px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top: 350px;
-    
-    color: rgb(14, 9, 8);
-    box-shadow: 5px 10px 20px 25px rgb(12, 2, 2);
-    width:100%;
-}
-
-
-.box5 .portada img {
-    background-image: url(img/portada.jpg);
-    position: absolute;
-}
-
-
-
-.box6 {
-    width: 100%;
-    
-}
-
-.article {
-    
-    display: flex;
-    float: left;
-    left: 50%;
-    margin: 30px;
-    max-width: 900px;
-
-}
-
-.tarjeta {
-    max-width: 1200px;
-    margin: 80px;
-    border: 1px solid black;
-    background-color: rgb(109, 32, 22);
-    box-sizing: border-box;
-    box-shadow: 5px 10px 25px 30px black;
-}
-
-.box6 img {
-    width: 250px;
-    margin-left: 20px;
+    min-width: 150px;
    
 }
-
-h3 {
-    color: black;
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    
-    
+.menus li:hover > ul {
+    display: block;
 }
 
 
-/*galery de imagenes*/
-
-#galery {
-    display: flex;
-    float: left;
-    left: 50%;
+.menus li img {
+    display: block;
+    margin: auto;
     
 }
 
-.tarjeta-galery{
-    max-width: 1200px;
-    margin: 80px;
-    border: 1px solid black;
-    background-color: rgb(109, 32, 22);
-    box-sizing: border-box;
-    box-shadow: 5px 10px 25px 30px black;
-
-    
-}
-.imgFrontal img, h1{
-    width: 250px;
-    max-width: 800px;
-    max-height: 900px;
-    
-}
-
-img {
+.portada img {
+    display: block;
+    margin: auto;
     width: 100%;
+    height: 100%;
 }
 
-h1 {
-    color: black;
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.categoria {
+    padding: 100px;
+}
+
+.categoria li {
+    width: 100%;
     
 }
 
-.box7 {
-    width: 100%;
+.categoria img {
+  max-width: 100%;
+  height: 100%;
+margin-top: 50px;
+text-decoration: none;
+list-style-type: none;
+width: 350px;
+margin-left: 10%;
+
+  
 }
 
+.categoria .baner1 {
 
-
+    margin: auto;
+    display: inline;
+    margin: 10px;
+    max-width: 500px;
+    
+    
+    
+}
 
 footer {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:30px;
-    width:100%;
-    background:rgb(0, 0, 0);
- }
-
-.box7 h3 {
-    text-align: center;
-    font-size: 90px;
+    background: black;
+    width: 100%;
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+    color: white;
+    height: 100%;
+    
     
 }
 
-.box7 h3:hover {
-    color: rgb(36, 0, 0);
-    zoom: 1.1;
+
+footer .whatsapp {
+    font-size: 25px;
+    color: green;
 }
 
-
-
+footer i {
+    display: inline-flex
+}
 
 
 
