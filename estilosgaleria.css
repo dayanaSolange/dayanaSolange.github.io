@@ -69,6 +69,13 @@ ul {
     margin: auto;
     
 }
+.portada img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
 section h1 {
     top: 100px;
     position:relative;
