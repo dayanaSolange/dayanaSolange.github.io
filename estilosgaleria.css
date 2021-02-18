@@ -1,0 +1,129 @@
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+   
+   
+    
+}
+#header {
+    width: 500;
+    font-family: Arial;
+    width: 100%;
+    font-size: 20px;
+   
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.menus {
+    margin: 0;
+    
+    
+}
+
+.menus li a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(177, 71, 71);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+    
+    
+  
+}
+
+.menus > li {
+    float: left;
+    position: relative;
+    
+}
+
+.menus li a:hover {
+    background-color: rgb(204, 166, 172);
+}
+
+.menus li ul {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+   
+}
+.menus li:hover > ul {
+    display: block;
+}
+
+
+.menus li img {
+    display: block;
+    margin: auto;
+    
+}
+section h1 {
+    top: 100px;
+    position:relative;
+    width:100%;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 1px 2px 4px palevioletred;
+    color: rgb(177, 71, 71);
+    
+}
+
+
+
+.galery-vestido {
+    margin-top:150px;
+    max-width: 1000px;
+    margin:100px;
+    position:relative;
+}
+
+.galery-vestido img {
+    width:250px;
+    height:100%;
+    float:left;
+    margin:10px;
+    position:relative;
+    left: 20%;
+
+
+    
+}
+footer {
+    background: black;
+    width: 100%;
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+    color: white;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    
+    
+    
+}
+
+
+footer .whatsapp {
+    font-size: 25px;
+    color: green;
+}
+
+footer i {
+    display: inline-flex
+}
+
+
+
