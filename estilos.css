@@ -6,7 +6,8 @@
 body {
     margin: 0;
     padding: 0;
-   
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-tamano-pantalla-pagina-web-abstracta-gradiente-crepuscular_70155-243.jpg);
+    background-size: cover;
    
     
 }
@@ -30,7 +31,7 @@ ul {
 }
 
 .menus li a {
-    background-color: rgb(255, 255, 255);
+    
     color: rgb(177, 71, 71);
     text-decoration: none;
     padding: 10px 15px;
