@@ -6,8 +6,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(https://image.freepik.com/vector-gratis/fondo-tamano-pantalla-pagina-web-abstracta-gradiente-crepuscular_70155-243.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/12/14/38/scrapbook-1588782_960_720.jpg);
     background-size: cover;
+    
+    
    
     
 }
@@ -18,6 +20,13 @@ body {
     font-size: 20px;
    
     
+}
+
+.logo img {
+   border-radius: 100%;
+   width:200px;
+   border: 4px solid  palevioletred;
+   box-shadow: 4px 8px 15px  rgb(141, 87, 87);
 }
 
 ul {
@@ -32,12 +41,13 @@ ul {
 
 .menus li a {
     
-    color: rgb(177, 71, 71);
+    color: rgb(121, 33, 33);
     text-decoration: none;
     padding: 10px 15px;
     display: block;
     width: 100%;
     text-align: center;
+    background-color: rgb(219, 103, 147);
     
     
     
@@ -51,7 +61,7 @@ ul {
 }
 
 .menus li a:hover {
-    background-color: rgb(204, 166, 172);
+    background-color: rgb(199, 128, 158);
 }
 
 .menus li ul {
@@ -75,7 +85,7 @@ ul {
     display: block;
     margin: auto;
     width: 100%;
-    height: 100%;
+    height: 450px;
 }
 
 .categoria {
