@@ -1,2 +1,0 @@
-# dayanaSolange.github.io
-portafolio
