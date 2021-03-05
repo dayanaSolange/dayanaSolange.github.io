@@ -23,7 +23,31 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+<style>
+	#myDIV {
+		width: 100%;
+		height: 100px;
+		background-image: url(img/gallery/calzasss.jpg);
+		animation: mymove 5s infinite;
+		background-size: cover;
+		
+	  }
+	  
+	  @keyframes mymove {
+		50% {background-image: url(startbootstrap-agency-gh-pages/assets/img/up.png);background-size: cover;}
+	  }
+</style>
+
+<body id="page-top" data-spy="scroll" >
+	
+	 
+	  <div id="myDIV"></div>
+	  
+
+
+
+
+
 	<!-- Preloader -->
 	<div id="preloader">
 	  <div id="load"></div>
@@ -62,7 +86,7 @@
                                                                   <li class="active"><a href="#intro">Inicio</a></li>
                                                                   <li><a href="#about">Como Comprar</a></li>
 														          <li><a href="#gallery">Galeria </a></li>                                                                                                             
-                                                                  <li><a href="#contact">Talk to me</a></li>
+                                                               
                                                             </ul>
                                                       </div>
                                                       <!-- /.Navbar-collapse -->
